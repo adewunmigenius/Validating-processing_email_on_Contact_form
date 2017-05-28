@@ -1,0 +1,28 @@
+body{
+	margin-top: 200px;
+	margin-left: 500px;
+	margin-right: 400px;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size: 85%;
+}
+h1{
+	color: blue;
+}
+label{
+	display: block;
+}
+.warning{
+	color:red;
+	font-weight:bold;
+}
+textarea{
+	width: 30em;
+	height: 10em;
+}
+input[type=submit] {
+	width: auto;
+	background-color: #1499DC;
+	color: #fff;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+}
