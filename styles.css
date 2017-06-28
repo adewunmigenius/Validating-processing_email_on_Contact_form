@@ -1,12 +1,35 @@
 body{
-	margin-top: 200px;
-	margin-left: 500px;
-	margin-right: 400px;
-	font-family: "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	width:100%;
+	/*margin-right: 400px;
+	*/font-family: "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 	font-size: 85%;
+	background: #ddd;
+}
+#wrapper{
+	margin-top: 10%;
+	margin-left: 34%;
+	height: auto;
+	width: 400px;
+	border:2px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #000;
+	-webkit-border:2px solid #ccc;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	background-color: #fff;
+}
+section{
+	padding: 10px 30px 30px;
+}
+input{
+	border-radius: 4px;
+	width:80%;
+	box-shadow: 1px 1px 2px #000;
 }
 h1{
-	color: blue;
+	text-align: center;
+	font-size:2em;
+	color: steelblue;
 }
 label{
 	display: block;
@@ -16,8 +39,10 @@ label{
 	font-weight:bold;
 }
 textarea{
-	width: 30em;
+	width: 20.5em;
 	height: 10em;
+	border-radius: 4px;
+	border: 2px solid #aaa;
 }
 input[type=submit] {
 	width: auto;
